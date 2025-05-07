@@ -71,7 +71,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://soloparentbackend.onrender.com", {
+      const response = await fetch("https://soloparentbackend.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
