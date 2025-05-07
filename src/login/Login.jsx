@@ -71,7 +71,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://host-solo-parent-6knb.vercel.app/login", {
+      const response = await fetch("https://soloparentbackend.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -216,7 +216,7 @@ const Login = () => {
         
         <form onSubmit={handleLogin}>
           <div className={styles.inputGroup}>
-            <label htmlFor="email">Email
+            <label htmlFor="email">Emails
             </label>
             <input
               id="email"
